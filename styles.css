@@ -20,6 +20,7 @@ header h1 {
 /* Navegación */
 nav ul {
     list-style: none;
+    padding: 0;
 }
 
 nav ul li {
@@ -33,5 +34,17 @@ nav a {
     font-weight: bold;
 }
 
-/* Secciones, pie de página y más estilos aquí */
+/* Secciones */
+section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
 
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
